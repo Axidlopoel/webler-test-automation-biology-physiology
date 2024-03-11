@@ -7,4 +7,3 @@
 ---
 
 [source of the photo](https://pngtree.com/free-animal-clipart/lion)
-

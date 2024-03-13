@@ -3,18 +3,16 @@ package hu.webler.domain;
 import java.util.Arrays;
 
 public abstract class LivingCreature {
-
+    private static int creatureCounter;
     private String name;
-
     private int age;
-
     private String[] colors;
-
     public LivingCreature() {
 
     }
 
     public LivingCreature(String name, int age, String[] colors) {
+        creatureCounter++;
         this.name = name;
         this.age = age;
         this.colors = colors;
